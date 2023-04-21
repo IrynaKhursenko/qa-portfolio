@@ -17,7 +17,7 @@
   "Bug_id":"2",
   "Priority":"Hight",
   "Summary":"Credits are withdrawn several times when duplicate clicking the Send mail button",
-  "Preconditions": Internet must be slow for example Slow 3g
+  "Preconditions": "Internet must be slow for example Slow 3g"
   "Steps to reproduce":
   {
     "1":"Login",
