@@ -1,0 +1,46 @@
+{
+  "Bug_id":"1",
+  "Priority":"Hight",
+  "Summary":"Displayed Something went wrong page on the messages page",
+   
+  "Steps to reproduce":
+  {
+    "1":"Login",
+    "2":"Go to the Messages",
+    "3":"Open any chat with user and send the photo",
+    "4":"When the photo is sending click on the another chats 2 times",
+  },
+  "Actual result":"Displayed Something went wrong page"
+  "Expected result":"Displayed error text under the message",
+  
+  
+  "Bug_id":"2",
+  "Priority":"Hight",
+  "Summary":"Credits are withdrawn several times when duplicate clicking the Send mail button",
+  "Preconditions": Internet must be slow, for ex. Slow 3g
+  "Steps to reproduce":
+  {
+    "1":"Login",
+    "2":"Go to the Mail page",
+    "3":"Choose any profile and write him a new mail.",
+    "4":"Tap (click) on the Send mail button many times until the page is refreshed"
+  },
+  "Actual result":"Credits are withdrawn as many times as the Send mail button was pressed"
+  "Expected result":"Credits should be deducted only once when clicking on the Send mail ",
+  
+  
+  "Bug_id":"3",
+  "Priority":"High",
+  "Summary":"Incorrectly displayed text in the preview chat, when the word has an apostrophe",
+  "Steps to reproduce":
+  {
+    "1":"Login",
+    "2":"Open chats and choose any chat",
+    "3":"Send a word with an apostrophe (for example: What's up?)",
+    "4":"Open chat to whom the message was sent and look at the preview chat",
+ 
+  },
+  "Actual result":"Displayed What&#x27:s up text in the preview chat, when the word has an apostrophe "
+  "Expected result":"Should be What's up? text",
+  
+}
