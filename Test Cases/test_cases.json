@@ -1,0 +1,25 @@
+{
+  "TestCase_id": "1",
+  "Title": "Open My Payments page",
+  "Steps": {
+    "1": "Open the website.",
+    "2": "Log in with valid and exist credentials",
+    "3": "Click on the side menu to expand it",
+    "4": "Click on the My Payments"
+  },
+  "Expected result": "The user should be redirected to the My Payments page, which should display information about the user's transactions."
+  
+  
+  
+  "TestCase_id": "2",
+  "Title": "Chronological order",
+  "Steps": {
+    "1": "Open the website.",
+    "2": "Log in with valid and exist credentials",
+    "3": "Block several users at different times",
+    "4": "Go to the Blocked User page"
+	"5": "Verify that the users are displayed in chronological order, with the most recently blocked users displayed first."
+  },
+  "Expected result": "Models are displayed in chronological order, with the most recently blocked users displayed first."
+  
+}
